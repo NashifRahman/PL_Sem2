@@ -1,0 +1,142 @@
+/* default */
+body {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #eecc11;
+}
+
+/* Pengaturan Halaman */
+#container{
+    width: 1000px;
+    font-size: 90%;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+/* Pengaturan Header */
+#header{
+    padding: 10px;
+    height: 75px;
+    border: #0000ff dashed lpx;
+    background-color: #000000;
+    background-image: url('animasi.gif');
+    background-position: center -40px;
+    background-repeat: no-repeat;
+}
+
+#header h1 {
+    display: block;
+    width: 815px;
+    height: 110px;
+    padding: 10px;
+    color: #003399;
+    font-family: 'trebuchet ms', helvetica, Arial;
+}
+
+/* Pengaturan side panel */
+#sidebar{
+    border: #0000ff dashed 1px;
+    margin-top: 10px;
+    width: 150px;
+    align-self: flex-start;
+    background-color: #99ccff;
+}
+
+#sidebar h3
+{
+    color: #993300;
+    padding-left: 10px;
+    font-family: 'Trebuchet MS', helvetica, arial, sans-serif;
+    margin-top: auto;
+}
+
+/* pengaturan menu navigasi */
+ul#navmenu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul#navmenu li {
+    margin-bottom: 5px;
+}
+
+ul#navmenu a{
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: #003366;
+    padding: 5px 5px 3px;
+    text-align: left;
+    text-decoration: none;
+    color: #eecc11;
+    cursor: pointer;
+}
+
+ul#navmenu a:hover, ul#navmenu a:focus, ul#navmenu a:active {
+    background-color: #333;
+    color: #fff;
+}
+
+ul#navmenu a.selected, ul#navmenu a.selected:hover,
+ul#navmenu a.selected:focus, ul#navmenu a.selected:active {
+    background-color: #386088;
+    color: #fff;
+}
+
+ul#navmenu a.selected{
+    text-align: right;
+    cursor: default;
+}
+
+/* pengaturan content */
+#page{
+    border: #0000ff dashed 1px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 815px;
+    align-self: flex-start;
+}
+
+#page h2{
+    color: #993300;
+    font-family: 'Trebuchet MS',Helvetica , Arial, sans-serif;
+}
+
+img{
+    border: none;
+}
+
+#clear{
+    clear: both;
+}
+
+#bungkus{
+    display: flex;
+}
+
+/* pengaturan footer */
+#footer{
+    border: #0000ff dashed 1px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #99ccff;
+}
+
+table{
+    font-size: small;
+}
+
+#header1{
+    width: 1050px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    display: flex;
+}
