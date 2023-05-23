@@ -140,3 +140,18 @@ table{
     border-radius: 50px;
     display: flex;
 }
+
+#bungkus2{
+    display: grid;
+}
+
+#in{
+    align-items: flex-start;
+    margin-top: 10px;
+    width: 150px;
+    align-self: flex-start;
+}
+
+#in input{
+    margin-bottom: 10px;
+}
